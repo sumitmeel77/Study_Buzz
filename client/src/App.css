@@ -208,7 +208,7 @@
     font-size: 5rem;
     font-weight: 800;
     letter-spacing: .2rem;
-    color: #050505;
+    color: #396d69;
     margin-top: 40px;
     text-align: center;
   }
@@ -250,7 +250,7 @@
 
   /*CARD*/
   .card-lg{
-      border: 1px solid #A16AE8;
+      border: 1px solid #2796aa;
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px; 
       border-radius: 10px;
@@ -258,12 +258,12 @@
       -moz-box-shadow: 0 5px 15px hsla(0,0%,0%,.2);
       box-shadow: 0 5px 15px hsla(0,0%,0%,.2);
       padding: 50px;
-      background-color: rgb(244, 242, 239);
+      background-color: rgb(229, 249, 250);
   }
 
   .card-md {
     max-width: 70vw;
-    border: 1px solid #A16AE8;
+    border: 1px solid #2796aa;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px; 
     border-radius: 10px;
@@ -271,7 +271,7 @@
     -moz-box-shadow: 0 5px 15px hsla(0,0%,0%,.2);
     box-shadow: 0 5px 15px hsla(0,0%,0%,.2);
     padding: 20px;
-    background-color: rgb(244, 242, 239);
+    background-color: rgb(229, 249, 250);
   }
 
   .card-sm{
@@ -288,7 +288,7 @@
     width: 400px;
     max-width: 400px;
     border: 1px solid rgb(244, 242, 239);
-    background-color: rgb(244, 242, 239);
+    background-color:rgb(229, 249, 250);
     -webkit-box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
     -moz-box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
     box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
@@ -299,7 +299,7 @@
   .card-row {
     width: 80vw;
     border: 1px solid rgb(244, 242, 239);
-    background-color: rgb(244, 242, 239);
+    background-color: rgb(229, 249, 250);
     -webkit-box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
     -moz-box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
     box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
@@ -471,15 +471,15 @@
   }
 
   .btn-buddy-profile {
-    border: 1px solid #A16AE8;
-    background-color: #A16AE8;
+    border: 1px solid #6ad1e8;
+    background-color: #6ad1e8;
     color: #fff;
   }
 
   .btn-buddy-profile:hover {
-    border: 1px solid #A16AE8;
+    border: 1px solid #6ad1e8;
     background-color: #fff;
-    color: #A16AE8;
+    color: #6ad1e8;
   }
 
   .btn-buddy-accept {
@@ -570,18 +570,17 @@
     justify-content: space-between;
     box-shadow: 0px 5px 15px hsla(0,0%,0%,.4);
   }
-  .logo-image{
-    width: 46px;
-    height: 46px;
+  /* .logo-image{
+    width: 5rem;
+    height: 50px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
-}
+} */
   .navbar-brand {
     margin-right: auto;
-    font-size: 30px;
     margin-left: 24px;
-    color: #000000;
+    /* color: #000000; */
   }
 
   .navs {
@@ -589,7 +588,9 @@
     margin-right: 24px;
     /*justify-content: space-between;*/
   }
-
+  .navs > .nav-item{
+    color: #26899b;
+  }
   .navs > .nav-item:hover{
     filter:brightness(90%) !important;
         padding: 3px 6px 0px 6px;
@@ -740,12 +741,12 @@
   /* dashboard */
   
   .btn-primary {
-    background-color: #c5ecf3;
+    background-color:#8dc5cf;
     font-size: 100%;
   }
 
   .btn-primary:hover {
-    background-color: #c5ecf3;
+    background-color: #8dc5cf;
   }
 
   .btn-dash {
@@ -753,7 +754,7 @@
     text-align: center;
     text-decoration: none;
     margin: 1rem;
-    background-color: #EA3160;
+    background-color: #63bbe5;
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -764,8 +765,8 @@
 
   .btn-dash:hover {
     background-color: #fff;
-    color: #EA3160;
-    border: 1px solid #EA3160;
+    color: #63bbe5;
+    border: 1px solid #63bbe5;
     border-radius: 8px;
   }
 
@@ -774,7 +775,7 @@
     text-align: center;
     text-decoration: none;
     margin: 0.5rem;
-    background-color: #EA3160;
+    background-color: #63bbe5;
     font-size: 1rem;
     padding: 0.4rem 0.8rem;
     border-radius: 7.5px;
@@ -784,13 +785,13 @@
   }
 
   .btn-peer {
-    background-color: rgb(127, 0, 255);
+    background-color: rgb(102 156 213);
   }
 
   .btn-peer:hover {
-    border: solid 1px rgb(127, 0, 255);
+    border: solid 1px rgb(102 156 213);
     background-color: #fff;
-    color: rgb(127, 0, 255);
+    color: rgb(102 156 213);
   }
 
   .btn-small {
@@ -798,7 +799,7 @@
     text-align: center;
     text-decoration: none;
     margin: 0.5rem;
-    background-color: #EA3160;
+    background-color: #63bbe5;
     font-size: 0.9rem;
     padding: 0.25rem 1rem;
     border-radius: 7.5px;
@@ -810,15 +811,15 @@
 
   .btn-small:hover {
     background-color: #fff;
-    color: #EA3160;
-    border: 1px solid #EA3160;
+    color: #63bbe5;
+    border: 1px solid #63bbe5;
     border-radius: 8px;
   }
 
   .btn-small:disabled {
     background-color: #fff;
-    color: #EA3160;
-    border: 1px solid #EA3160;
+    color: #63bbe5;
+    border: 1px solid #63bbe5;
     border-radius: 8px;
     cursor: default;
   }
@@ -835,12 +836,12 @@
     max-width: 80vw;
     padding: 1.5rem 1.5rem;
     font-size: 1.25rem;
-    border: 0.5px solid #EA3160;
+    border: 0.5px solid #63bbe5;
   }
 
   .search-bar:hover {
     box-sizing: border-box;
-    border: 0.5px solid #EA3160;
+    border: 0.5px solid #63bbe5;
     -webkit-box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
     -moz-box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
     box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
@@ -849,7 +850,7 @@
   }
 
   .search-bar:focus{
-    border: 1px solid #EA3160;
+    border: 1px solid #63bbe5;
     -webkit-box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
     -moz-box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
     box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
@@ -874,15 +875,15 @@
 }
 
 .course-btn {
-  background-color: #EA3160;
-  border: 1px solid #EA3160;
+  background-color: #63bbe5;
+  border: 1px solid #63bbe5;
   color: #fff;
 }
 
 .course-btn:hover {
   background-color: #fff;
-  border: 1px solid #EA3160;
-  color: #EA3160;
+  border: 1px solid #63bbe5;
+  color: #63bbe5;
 }
 
 .create-group-btn {
@@ -969,7 +970,7 @@
 .study-card {
   flex-grow: 2;
   width: 320px;
-  border: 1px solid #A16AE8;
+  border: 1px solid #6ad1e8;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px; 
   border-radius: 10px;
@@ -1161,13 +1162,13 @@
   width: 500px;
   padding: 1rem 1rem;
   font-size: 0.8rem;
-  border: 0.5px solid #EA3160;
+  border: 0.5px solid #63bbe5;
   border-radius: 4px;
 }
 
 .chat-bar:hover {
   box-sizing: border-box;
-  border: 0.5px solid #EA3160;
+  border: 0.5px solid #63bbe5;
   -webkit-box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
   -moz-box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
   box-shadow:  0 0 1px 3px rgba(234, 49, 96, 0.1);
@@ -1181,7 +1182,7 @@
   text-align: center;
   text-decoration: none;
   margin: 1rem;
-  background-color: #EA3160;
+  background-color: #63bbe5;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 10px;

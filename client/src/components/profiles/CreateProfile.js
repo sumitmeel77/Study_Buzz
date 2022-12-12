@@ -40,7 +40,7 @@ const CreateProfile = ({profile = emptyProfile, prompt}) => {
             <div className="card-md create-profile-margin">
                 <h2> {prompt} </h2>
                 <form onSubmit={onSubmit}>
-                    <label htmlFor="bio"> Name </label>
+                    <label htmlFor="bio"> Description</label>
                     <input type="text" name="bio" id="bio" placeholder="Name" className="input" value={bio} onChange={onChange} />
                     <label htmlFor="year"> Graduating Year </label>
                     <input type="text" name="year" id="year" placeholder="Year" className="input" value={year} onChange={onChange} />

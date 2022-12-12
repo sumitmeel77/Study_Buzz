@@ -27,9 +27,9 @@ const ProfileView = ( {profile} ) => {
                 </div>
 
                 <div className="profile-info">
-                    <h2 className="profile-text"> {bio} </h2>
+                    <h2 className="profile-text2"> Description: {bio} </h2>
                     <h2 className="profile-text2"> Year: {year} </h2>
-                    <ul className="course-list"> {courseElements} </ul>
+                    <ul className="course-list">{courseElements} </ul>
                 </div>
             </div>
 

@@ -5,6 +5,7 @@ import AuthContext from '../../context/auth/authContext';
 import ProfileContext from '../../context/profiles/profileContext';
 import PeersContext from '../../context/peers/peersContext';
 import GroupsContext from '../../context/groups/groupsContext';
+import study from "../../images/study.png"
 
 const Navbar = props => {
     const authContext = useContext(AuthContext);
@@ -52,7 +53,7 @@ const Navbar = props => {
         <div className="navbar">
             <a className="navbar-brand" href="/">
                 <div className="logo-image">
-                        <img src="../../images/study.png"  className="img-fluid" style={{width:"100px" , height:"100px"}}/>
+                        <img src= {study}  className="img-fluid" style={{width:"60px" , height:"60px"}}/>
                 </div>
             </a>
             {/* <Link to="/home">

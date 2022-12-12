@@ -127,6 +127,7 @@ const StudyView = () => {
                 {sidebar === "sidebar-on" &&
                     <Fragment>
                         <a href="#!" className="btn-close" onClick={() => collapseSidebar()}><i className="fas fa-times-circle btn-close-icon"></i></a>
+                        <h1 className="sidebar-link"  style={{color:"#26899b"}}>GROUPS LIST </h1>
                         {user_groups.map(group => (
                             <h1 className="sidebar-link" key={group._id} onClick={() => setCurrent(group)}>{group.name}</h1>
                         ))}

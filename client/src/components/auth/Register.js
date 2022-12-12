@@ -70,7 +70,7 @@ const Register = props => {
                             <a href="#" className="register-btn">
                                 <input type="submit" value="Sign up" className="btn-primary"/>
                             </a>
-                            <Link to="/login">Log in!</Link>
+                            <Link to="/login">Sign in !</Link>
                         </form>
                     
                 </div>
