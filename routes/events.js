@@ -6,8 +6,6 @@ const auth = require('../middleware/auth');
 const Group = require('../models/Group');
 const Event = require('../models/Event');
 
-const getCity = require('../utils/geocoding');
-
 // @route  POST api/events
 // @desc   Create or update an event
 // @access Private
@@ -35,16 +33,6 @@ router.post('/', [auth, [
     const groupDoc = await Group.findById(group);
     if (!groupDoc) {
         return res.status(404).json({ msg: 'Group is not found or invalid '});
-    }
-
-    /* Make sure the latitude & longitude is in Kingston */
-    if (lat && lng) {
-        let city = await getCity(lat, lng);
-        if (city !== "Kingston") {
-            return res.status(400).json({ msg: 'You can only make crams in Kingston' });
-        }
-    } else {
-        return res.status(400).json({ msg: 'Latitude & Longitude not included' });
     }
 
     // Set the fields for the new event
