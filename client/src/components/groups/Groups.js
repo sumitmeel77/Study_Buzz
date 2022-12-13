@@ -8,6 +8,7 @@ import GroupFilter from './GroupFilter';
 import ProfileContext from '../../context/profiles/profileContext';
 import GroupsContext from '../../context/groups/groupsContext';
 import AlertContext from '../../context/alert/alertContext';
+import LoadingSpinner from "../../utils/spinner";
 
 const Groups = () => {
     const profileContext = useContext(ProfileContext);
@@ -107,11 +108,19 @@ const Groups = () => {
                     </Fragment>)
                     :
                     (<Fragment>
+                        {console.log("filtered")}
+                        {
+                            console.log(filtered)
+                        }
+                        {console.log("groups")}
+                        {
+                            console.log(groups)
+                        }
                         {filtered.length === 0 ? 
                         (<Fragment>
                             {groups.map((group, index) => {
                                 if (index > 20) return;
-                                if (isHost(group)) return;
+                                // if (isHost(group)) return;
                                 if (group.view === "normal") {
                                     return <Group key={group._id} group={group} openLargeView={openLargeView} />
                                 } else {
@@ -123,7 +132,7 @@ const Groups = () => {
                         (<Fragment>
                         {filtered.map((group, index) => {
                             if (index > 20) return;
-                            if (isHost(group)) return;
+                            // if (isHost(group)) return;
                             if (group.view === "normal") {
                                 return <Group key={group._id} group={group} openLargeView={openLargeView} />
                             } else {
