@@ -287,7 +287,7 @@
     /*width: 80vw;*/
     width: 400px;
     max-width: 400px;
-    border: 1px solid rgb(244, 242, 239);
+    border: 1px solid rgb(229, 249, 250);
     background-color:rgb(229, 249, 250);
     -webkit-box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
     -moz-box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
@@ -298,7 +298,7 @@
 
   .card-row {
     width: 80vw;
-    border: 1px solid rgb(244, 242, 239);
+    border: 1px solid rgb(229, 249, 250);
     background-color: rgb(229, 249, 250);
     -webkit-box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
     -moz-box-shadow: 0 2.5px 7.5px hsla(0,0%,0%,.05);
@@ -322,7 +322,7 @@
   /* some more profile stuff */
   .profile-card {
     padding: 30px;
-    border-color: rgb(244, 242, 239);
+    border-color: rgb(229, 249, 250);
   }
 
   .mt-1 {
@@ -366,7 +366,7 @@
     -webkit-box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
     -moz-box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
     box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
-    border-color: rgb(244, 242, 239);
+    border-color: rgb(229, 249, 250);
   }
 
 
@@ -416,7 +416,7 @@
     -webkit-box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
     -moz-box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
     box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
-    border-color: rgb(244, 242, 239);
+    border-color: rgb(229, 249, 250);
   }
 
   .requests {
@@ -622,8 +622,8 @@
   /* ALERTS */
   .alerts {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 5%;
+    right: 40%;
     width: 17.5rem;
     display: flex;
     flex-direction: column-reverse;
@@ -643,8 +643,8 @@
   }
 
   .alert-danger {
-    background-color: #f8d7da;
-    border-color: #f8d7da;
+    background-color: #d3616a;
+    border-color: #d3616a;
   }
 
   .alert-icon {
@@ -902,7 +902,7 @@
   -webkit-box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
   -moz-box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
   box-shadow: 0 4.5px 12.5px hsla(0,0%,0%,.2);
-  border-color: rgb(244, 242, 239);
+  border-color: rgb(229, 249, 250);
 }
 
 .explore-profile-group {
@@ -979,7 +979,7 @@
   box-shadow: 0 5px 15px hsla(0,0%,0%,.2);
   padding: 15px;
   margin: 15px;
-  background-color: rgb(244, 242, 239);
+  background-color: rgb(229, 249, 250);
 }
 
 .study-card-sm {

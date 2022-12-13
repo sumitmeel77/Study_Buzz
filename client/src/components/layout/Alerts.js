@@ -7,13 +7,18 @@ const Alerts = props => {
 
     const { alerts } = alertContext;
 
-    return (<div className="alerts">
+    return (
+        <>
+        <div className="alerts">
             {alerts.length > 0 && alerts.map(alert => (
                 <div key={alert.id} className={`alert alert-${alert.type}`}>
                     <i className="fas fa-info-circle alert-icon" />{' '} {' '}{alert.msg}
                 </div>
             ))}
-    </div>)
+    </div>
+        </>
+    
+    )
 }
 
 export default Alerts;
